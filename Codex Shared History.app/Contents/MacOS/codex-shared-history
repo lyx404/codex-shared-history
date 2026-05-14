@@ -1,0 +1,3 @@
+#!/bin/zsh
+APP_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+exec "$APP_DIR/Resources/open-codex-shared-history.sh"
